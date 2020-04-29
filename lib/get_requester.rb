@@ -2,9 +2,11 @@ require 'open-uri'
 
 
 class GetRequester
+  attr_accesor :url
 
   def initialize(url)
-    URL = url
+    @url = url
+    
   end
 
   def get_response_body
