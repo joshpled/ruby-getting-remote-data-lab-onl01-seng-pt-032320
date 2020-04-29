@@ -3,7 +3,7 @@ require 'open-uri'
 
 class GetRequester
 
-  def initialize(URL)
+  def initialize(url)
 
   end
 
