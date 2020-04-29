@@ -22,6 +22,7 @@ class GetRequester
     data.collect do |data|
       data
     end
+    binding.pry
   end
 
 end
